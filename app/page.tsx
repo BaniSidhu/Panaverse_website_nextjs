@@ -1,112 +1,91 @@
-import Image from 'next/image'
+'use client'
+import YouTube from 'react-youtube';
 
 export default function Home() {
+  const videoId = '7X-TfHa3Q74';
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+    <main>
+      <div style={{ backgroundColor: '#6A0000', width: '100%', height: '200px' }}>
+        <h1 style={{ textAlign: 'center', color: 'white', fontSize: '60px', fontFamily: 'sans-serif' }}>Quater 2 Batch 50</h1>
+        <h2 style={{ textAlign: 'center', color: 'white', fontSize: '50px', fontFamily: 'sans-serif' }}>Let's Start Nextjs. We have successful projects in FSD, LHR & ISB</h2>
+      </div>
+
+      <div style={{ width: '500px', height: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto' }}>
+        <p style={{ textAlign: 'center', color: 'green', fontSize: '18px' }}>
+          Next.js is an open-source web development framework created by the private company Vercel
+          providing React-based web applications with server-side rendering and static website generation.
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto' }}>
+        <img src="/DAO.png" width={500} height={300} alt="" />
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <br />
+      <br />
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+      <h1 style={{ textAlign: 'center', fontSize: '30px', fontFamily: 'sans-serif', padding: '10px 10px' }}>Program of Studies</h1>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
+      <div style={{fontWeight:"bolder" ,textAlign: 'center', fontSize: '25px', fontFamily: 'sans-serif', padding: '10px 10px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto' }}>
+        <p style={{ fontSize: '15px', width: '50%' ,fontWeight:"bold"}}>
+          This curriculum is designed for individuals at an entry level who aspire to gain proficiency in software development comprehensively.
+          <br /> The initial two quarters are universal, catering to various specializations, and are specifically tailored for the in-depth exploration of Object-Oriented Programming principles and advanced Full-Stack Web 2.0 development techniques.
+          Envisaged as a year-long hybrid program, it integrates both in-person and online instruction, divided into four quarters, each spanning 13 weeks.
+          <br /> The program places a strong emphasis on experiential learning, guiding students in the creation of practical projects. In order to accommodate diverse schedules, classes are predominantly scheduled during weekends or post 6:00 p.m. (Pakistan Time) on weekdays.
+          The pedagogical approach employed is hybrid, incorporating essential on-site classes complemented by online Zoom laboratories.
+        </p>
+      </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <img src="/DAO2.jpg" width={500} height={300} style={{ padding: '20px 20px', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto' }} alt="" />
+      
+    
+
+      <br />
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto', fontSize: '30px', fontFamily: 'sans-serif', textDecoration: 'underline', fontWeight: 'bold' }}>SO GUYS HERE IS MY INSPIRATION</div>
+
+      <br />
+      <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', margin: 'auto'}}>
+      <YouTube
+        videoId={videoId}
+        opts={{
+          height: '390',
+          width: '640',
+          playerVars: {
+            autoplay: 1,
+          },
+        }}
+      />
+      </div>
+      <br />
+      <table style={{ borderCollapse: 'collapse', border: '4px solid #6A0000', width: '70%', margin: 'auto', boxShadow: '0px 0px 10px #888888' }}>
+  <thead style={{ textAlign: 'center', borderCollapse: 'collapse', borderBottom: '4px solid #6A0000', background: '#6A0000', padding: '15px',color:"white" }}>
+    <tr>
+      <th style={{ borderCollapse: 'collapse', borderRight: '2px solid #6A0000', padding: '15px', fontWeight: 'bold' }}>Name</th>
+      <th style={{ borderCollapse: 'collapse', padding: '15px', fontWeight: 'bold' }}>Batch</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style={{ textAlign: 'center', borderCollapse: 'collapse', borderBottom: '2px solid #6A0000' }}>
+      <td style={{ borderCollapse: 'collapse', borderRight: '2px solid #6A0000', padding: '10px', fontWeight: 'bold' }}>Fatima Rasheed</td>
+      <td style={{ borderCollapse: 'collapse', padding: '10px', fontWeight: 'bold' }}>Quater 2</td>
+    </tr>
+    <tr style={{ textAlign: 'center', borderCollapse: 'collapse', borderBottom: '2px solid #6A0000' }}>
+      <td style={{ borderCollapse: 'collapse', borderRight: '2px solid #6A0000', padding: '10px', fontWeight: 'bold' }}>Bassam Tanvir</td>
+      <td style={{ borderCollapse: 'collapse', padding: '10px', fontWeight: 'bold' }}>Quater 2</td>
+    </tr>
+    <tr style={{ textAlign: 'center', borderCollapse: 'collapse', borderBottom: '2px solid #6A0000' }}>
+      <td style={{ borderCollapse: 'collapse', borderRight: '2px solid #6A0000', padding: '10px', fontWeight: 'bold' }}>Abu Hurairah</td>
+      <td style={{ borderCollapse: 'collapse', padding: '10px', fontWeight: 'bold' }}>Quater 4</td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+      <div style={{color:"white" ,display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#6A0000', margin: 'auto', padding: '25px 25px', fontSize: '30px' }}>
+        <h1 style={{color:"white"}}>Contact US : </h1>
+        <span style={{ padding: '10px 10px',color:"white" }}> Facebook: Panaverse@yahoo.com</span> <br />
+        <span style={{color:"white"}}>Whatsapp: 0309-98989899</span>
       </div>
     </main>
   )
